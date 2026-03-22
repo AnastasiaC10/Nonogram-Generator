@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+}
+
+table {
+    margin-left: 50px;
+    border: solid black;
+}
+
+table button {
+    display: none;
+    background-color: white;
+    border: solid grey;
+    padding: 25px;
+}
+
+/* to make sure the numbers at the side display properly */
+table#nonogramBoard.fifteen {
+    width:80%;
+}
+table#nonogramBoard.ten {
+    width: 60%;
+}
+table#nonogramBoard.five {
+    width:30%;
+}
+
+/*make it a column*/
+.buttonbar {
+    float: left;
+    width: 15%;
+    border-right: black dotted;
+    border-bottom: black dotted;
+}
+
+.boardColumn {
+    float: left;
+    width: 80%;
+}
+
+/*the buttons on the side */
+.buttonbar button {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.buttonbar button:hover {
+    background-color: blanchedalmond;
+}
+
+.buttonbar select {
+    width: 90%;
+    padding: 16px 20px;
+}
