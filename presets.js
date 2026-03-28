@@ -20,7 +20,7 @@ function randomBoard(size) {
     preSetSide = [];
 
     //preset states list
-    //0 is empty, 1 is filled (functionally the same as empty)
+    //0 is empty, 1 is filled
     for (let j=0; j<size; j++) { //rows
         preSetStates.push([]);
         for (let k=0; k<size; k++) { //columns
